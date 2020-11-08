@@ -57,5 +57,9 @@ class Places {
         }
         return null;
     }
+    
+protected $origin = WRITEPATH . 'data/placesData.json';
+protected $keyField = 'id';
+protected $validationRules = [];
 
 }
